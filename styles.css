@@ -188,9 +188,20 @@ div * {
     line-height: 47px;    
 }
 
+.Snapchat {
+    position: absolute;
+    top: 510%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;  
+}
+
 #linkedin {
     position: absolute;
-    top: 520%;
+    top: 540%;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -200,12 +211,12 @@ div * {
 }
 .form {
     position: absolute;
-    top: 540%;
+    top: 560%;
     left: 40%; 
 }
 
 .the_button {
     position: absolute;
-    top: 560%;
+    top: 580%;
     left: 50%;
 }
