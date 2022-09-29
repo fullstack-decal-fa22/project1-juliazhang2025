@@ -1,0 +1,161 @@
+div * {
+    color: red;
+}
+
+.About {
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 47px;   
+}
+
+.Intro {
+    position: absolute;
+    top: 30%;
+    left: 20%; 
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 105px;
+}
+
+.Julia_Picture {
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    height: 500px;
+    width: 300px;
+}
+
+.Describe_myself {
+    position: Absolute;
+    top: 80%;
+    left: 60%;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 105px;
+}
+
+.Work {
+    position: absolute;
+    top: 180%;
+    left: 45%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 47px;
+}
+
+.Snap_wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 500px  120px  500px;
+    grid-template-areas:
+                "Snap_heading Snap_heading Snap_heading"
+                "Snap_picture Snap_content Snap_content";
+    position: absolute;
+    top: 210%;
+    left: 25%;
+    }    
+    
+.Snap_heading {
+    grid-area: Snap_heading;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 105px;
+}
+
+.Snap_picture {
+    grid-area: Snap_picture;
+    height: 400px;
+    width: 500px; 
+  }
+
+.Snap_content {
+    grid-area: Snap_content;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 105px;
+}
+
+
+.Data_Science_Society_wrapper {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: 500px  120px  400px;
+    grid-template-areas:
+                "Data_Science_Society_heading Data_Science_Society_heading Data_Science_Society_heading"
+                "DSS_picture DSS_content DSS_content";      
+    position: absolute;
+    top: 300%;
+    left: 25%;
+    }   
+
+.Data_Science_Society_heading {
+    grid-area: Data_Science_Society_heading;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 47px;
+} 
+
+.DSS_picture {
+    grid-area: DSS_picture;
+    height: 400px;
+    width: 500px; 
+}
+
+.DSS_content {
+    grid-area: DSS_content;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 105px;    
+}
+
+.Contact {
+    position: absolute;
+    top: 450%;
+    left: 45%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 47px;
+}
+
+#linkedin {
+    position: absolute;
+    top: 500%;
+    left: 30%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 47px;
+}
