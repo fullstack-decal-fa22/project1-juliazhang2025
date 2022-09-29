@@ -7,9 +7,7 @@
         <title>Julia Zhang</title>
     </head>
     <body>
-        <div>
-            <h1 class="About">About</h1>
-        </div>
+        <h1 class="About">About</h1>
 
         <p class = "Intro">Hi, I'm Julia, and I'm a student studying Data Science at UC Berkeley!</p>
 
@@ -17,9 +15,7 @@
         
         <p class = "Describe_myself">I'm Julia, and my hometown is in the Lost Angeles area. I am currently living on campus at UC Berkeley. I enjoy walking outside and having boba with my friends in my free time. I am passionate about data science and am exploring different areas that data science can be applied to.</p>
 
-        <div>
         <h2 class="Work">Work</h2>
-        </div>
 
         <div class="Snap_wrapper">
             <div class="Snap_heading">Project #1: Sudoku in Snap!</div>
@@ -33,12 +29,35 @@
             <div class="DSS_content">Collaborated with 3 other Decal students on a Data Science project. Analyzed how age, number of children, sex, and smoking status affects insurance charges in the United States. Utilized Hypothesis Testing and Linear Regression.</div>
         </div>
 
-
-        <div>
         <h3 class="Contact">Contact</h3>
+
+        <div class = "the_flex">
+            <h4 class = "Email">Email: juliazhang2025@berkeley.edu</h4>
+            <h5 class = "Instagram">Instagram: juliazhang03</h5>
+            <a id="linkedin" href="https://www.linkedin.com/in/julia-zhang-b4a707225/">Julia Zhang's Linkedin Page</a>
         </div>
 
-        <a id="linkedin" href="https://www.linkedin.com/in/julia-zhang-b4a707225/">Julia Zhang's Linkedin Page</a>
+        <script>
+        function showAlert() {
+            alert ("Thank you for submitting!");
+        }
+        </script>
+
+        <form class = "form" action="" onsubmit = "showAlert()">
+            <label for = "name">Name:</label>
+            <input type="text" id="name">
+            <br>
+            <label for = "email">Email:</label>
+            <input type="text" id="email">
+            <br>
+            <input type="submit">
+        </form>
+
+        <div class= "the_button">
+            <button type="button" onclick="alert('Thank you for visiting!')">Click Me!</button>
+        </div>
+    
+    
 
     
 
